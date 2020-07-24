@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>JINGJUN'S PERSONAL WEBSITE-HOME</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="personalweb.css">
+</head>
+<body>
+    <div id="container">
+    <script>
+        var visited = localStorage.getItem('visited');
+        if (!visited) {
+            alert("Hi, I'm Jingjun!\nWelsome to my personal website!\nHave fun exploring it!");
+            localStorage.setItem('visited', true);
+        }
+    </script>
+    <header>
+        <h1>JINGJUN'S PERSONAL WEBSITE</h1>
+        <nav>
+            <a href="home.html" class="active">Home</a>
+            <a href="edu-skills.html">Education & Skills</a>
+            <a href="workexp-projects.html">Experience & Projects</a>
+            <a href="activities-hobbies.html">Activities & Hobbies</a>
+            <a href="contact.html">Contact me</a>
+        </nav>
+    </header>
+    <div class="row">
+    <section class="left"><section class="col-xs-3">
+        <img class="photo" src="imgs/photo.jpg" alt="Photo of Jingjun">
+    </section></section>
+    <section class="right"><section class="col-xs-8">
+        <h2>LU JINGJUN JEFF</h2>
+        <p>Year 2 undergraduate at Nanyang Technological University</p>
+        <p>Developer</p>
+        <p>Soccer fan</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/jingjun.lu.58" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/4jjlu_jeff/" target="_blank" class="fa fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/jingjun-lu/" target="_blank" class="fa fa-linkedin"></a>
+        </div>
+        <a href="resume.pdf" class="resume" target="_blank"><i class="fa fa-download"></i> Download Resume</a>
+    </section></section>
+    </div></div>
+    <footer>
+        <section id="bottomleft">
+            <h3>LINKS</h3><hr>
+            <p><a href="home.html">Home</a><br>
+            <a href="edu-skills.html">Education & Skills</a><br>
+            <a href="workexp-projects.html">Experience & Projects</a><br>
+            <a href="activities-hobbies.html">Activities & Hobbies</a><br>
+            <a href="contact.html">Contact me</a></p>
+        </section>
+        <section id="bottommiddle">
+            <h3>SOCIAL</h3><hr>
+            <p><a href="https://www.facebook.com/jingjun.lu.58" target="_blank" class="fa fa-facebook"></a>   Facebook</p>
+            <p><a href="https://www.instagram.com/4jjlu_jeff/" target="_blank" class="fa fa-instagram"></a>   Instagram</p>
+            <p><a href="https://www.linkedin.com/in/jingjun-lu/" target="_blank" class="fa fa-linkedin"></a>   LinkedIn</p>
+        </section>
+        <section id="bottomright">
+            <p>© Copyright 2020, Lu Jingjun</p>
+        </section>
+    </footer>
+</body>
+</html>
